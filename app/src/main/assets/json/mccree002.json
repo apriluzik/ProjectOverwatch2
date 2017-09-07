@@ -1,0 +1,30 @@
+﻿{
+"mccree":{
+"img":"https://blzgdapipro-a.akamaihd.net/hero/mccree/hero-select-portrait.png",
+"Name":"mccree",
+"KRName":"맥크리",
+"RealName":"제시 맥크리",
+"Age":"37",
+"Occupation":"현상금 사냥꾼",
+"Base":"미국,뉴 멕시코,산타 페",
+"Affiliation":"오버워치(예전기록)",
+"SubText":"정의는 저절로 실현되지 않아.",
+"MainText":"피스키퍼 리볼버로 무장한 무법자 제시 맥크리는 자신만의 방식으로 정의를 실현한다.맥크리는 미 남서부 일대에서 불법 무기와 군사 장비 밀거래로 악명 높은 데드락 갱단의 일원으로 이름을 날리다 오버워치의 함정 수사에 걸려 체포됐다. 뛰어난 사격술과 지략을 인정받은 맥크리는 철통 경비 속의 구치소에서 평생을 보내거나 오버워치 내의 비밀 조직, 블랙워치에 합류하라는 제안을 받고, 후자를 택했다.비록 처음에는 회의적이었지만, 시간이 지남에 따라 맥크리는 세상의 부조리를 바로잡음으로써 과거의 죄를 씻을 수 있다는 믿음을 갖게 되었다. 맥크리는 관료제와 불필요한 형식에 연연하지 않는 비밀 조직 블랙워치의 유연성을 높이 평가했다. 하지만 오버워치의 영향력이 축소되면서, 블랙워치 내의 불만 세력이 조직을 무너뜨리고 자신들만의 목적을 추구하기 시작했다. 내분을 원치 않았던 맥크리는 홀로 조직을 떠나 자취를 감췄다.수 년 후, 맥크리는 총잡이 용병이 되어 다시 모습을 드러냈다. 크고 작은 조직들이 맥크리의 능력을 탐내지만, 맥크리는 자신이 보기에 합당해야만 싸움에 뛰어든다.",
+"Name_ab1":"peacekeeper",
+"KRName_ab1":"피스키퍼",
+"Introduced_ab1":"맥크리는 피스키퍼라는 6연발 리볼버를 애용합니다. 공이치기를 빠르게 당겨 약실 안의 모든 총알을 순식간에 발사할 수도 있습니다.",
+"img_ab1":"https://blzgdapipro-a.akamaihd.net/hero/mccree/ability-peacekeeper/icon-ability.png",
+"Name_ab2": "combat-roll",
+"KRName_ab2":"구르기" ,
+"Introduced_ab2":"이동하던 방향으로 몸을 던집니다. 구르는 동안 피스키퍼를 재장전합니다.",
+"img_ab2":"https://blzgdapipro-a.akamaihd.net/hero/mccree/ability-combat-roll/icon-ability.png",
+"Name_ab3":"flashbang",
+"KRName_ab3":"섬광탄" ,
+"Introduced_ab3": "적의 눈을 멀게 하는 섬광탄을 던집니다. 섬광탄은 폭발하며 좁은 반경 안의 적들을 제대로 움직일 수 없게 합니다.",
+"img_ab3":"https://blzgdapipro-a.akamaihd.net/hero/mccree/ability-flashbang/icon-ability.png",
+"Name_ab4":"deadeye",
+"KRName_ab4":"황야의 무법자",
+"Introduced_ab4":"집중, 조준, 그리고 발사. 맥크리가 정신을 집중하여 조준한 후 방아쇠를 당겨 시야의 모든 적들에게 총을 발사합니다. 약한 적부터 치명상을 입습니다.",
+"img_ab4":"https://blzgdapipro-a.akamaihd.net/hero/mccree/ability-deadeye/icon-ability.png"
+}
+}

@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.OverWatch">
+        <item name="android:textColorPrimary">@color/OV_grey</item>
+        <item name="colorPrimary">@color/OV_orange</item>
+        <item name="colorAccent">@color/ov_lightblue</item>
+        <item name="colorControlNormal">@color/OV_orange</item>
+        <item name="android:background">@color/OV_bg</item>
+
+
+    </style>
+
+</resources>

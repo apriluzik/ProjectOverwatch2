@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="OV_orange">#FF9C00</color>
+    <color name="OV_bg">#323C51</color>
+    <color name="OV_light">#DDDCF1</color>
+    <color name="OV_grey">#C1C3C7</color>
+    <color name="ov_darkblue">#525D7F</color>
+    <color name="ov_lightblue">#00C3FF</color>
+    <color name="ov_blue">#5A6886</color>
+    <color name="ov_darkblue2">#586686</color>
+</resources>

@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.tsengvn.typekit.TypekitContextWrapper;
@@ -20,7 +21,7 @@ public class SecondActivity extends AppCompatActivity {
     ViewPager viewPager;
     FragmentAdapter fragmentAdapter;
     String heroKey;
-
+    int index;
     OverWatch overWatch;
 
 
@@ -29,18 +30,19 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        String[] names = new String[]
+        /*String[] names = new String[]
                 {"genji", "mccree", "pharah", "soldier-76", "sombra", "tracer",
                         "bastion", "hanzo", "junkrat", "mei", "torbjorn", "widowmaker",
                         "dva", "orisa", "reinhardt", "roadhog", "winston", "zarya",
-                        "ana", "lucio", "mercy", "symmetra", "zenyatta"};
+                        "ana", "lucio", "mercy", "symmetra", "zenyatta"};*/
 
 
         intent = getIntent();
 
 
         heroKey = intent.getStringExtra("Hero");
-        int index = intent.getIntExtra("Index",0);
+        index = intent.getIntExtra("Index",0);
+        Log.d("인덱스",index+"-SecondAc");
 
         overWatch = new OverWatch(index);
 

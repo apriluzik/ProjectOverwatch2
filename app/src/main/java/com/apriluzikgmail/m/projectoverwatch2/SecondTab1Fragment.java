@@ -113,9 +113,11 @@ public class SecondTab1Fragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext(),LinearLayoutManager.VERTICAL,false));
         abilityAdapter = new AbilityAdapter(abilities,getContext());
         recyclerView.setAdapter(abilityAdapter);
+        recyclerView.scrollToPosition(0);
+
         Log.d("err","2");
 
-//        Toast.makeText(getContext(),index+"",Toast.LENGTH_SHORT).show();
+
         return view;
     }
 

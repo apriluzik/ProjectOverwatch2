@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal" android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="150dp"
     android:layout_margin="4dp"
 
 
@@ -10,31 +10,36 @@
     android:background="#cc525D7F"
     android:orientation="vertical"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    android:layout_height="150dp">
 
     <ImageView
         android:id="@+id/tab1recyclerIMG"
         android:padding="4dp"
+        android:scaleType="fitCenter"
         android:src="@mipmap/ic_launcher"
-        android:layout_width="70dp"
-        android:layout_height="70dp" />
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
     <TextView
         android:gravity="center"
         android:textColor="#fff"
+        android:textSize="20sp"
         android:text="nameee"
         android:id="@+id/tab1recyclerNAME"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
 </LinearLayout>
+
     <TextView
+        android:layout_marginLeft="2dp"
+        android:id="@+id/tab1recyclerTEXT"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="#cc586686"
         android:gravity="center"
-        android:textColor="#fff"
-        android:text="texttexttexttexttext"
-        android:id="@+id/tab1recyclerTEXT"
+        android:textSize="24sp"
         android:padding="4dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:text="texttexttexttexttext"
+        android:textColor="#fff" />
 
 </LinearLayout>

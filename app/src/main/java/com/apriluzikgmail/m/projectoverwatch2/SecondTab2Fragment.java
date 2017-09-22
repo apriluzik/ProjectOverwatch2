@@ -6,6 +6,7 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -52,7 +53,7 @@ public class SecondTab2Fragment extends Fragment {
         String s = "";
 
 
-        Toast.makeText(getContext(), index+"", Toast.LENGTH_SHORT).show();
+        Log.d("인덱스",index+"-SecontTab2Frg");
         sub = (TextView) view.findViewById(R.id.tab2subText);
         main = (TextView) view.findViewById(R.id.tab2MainText);
         realname = (TextView) view.findViewById(R.id.tab2realname);
